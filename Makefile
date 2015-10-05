@@ -1,0 +1,2 @@
+test: main.cpp Registrar.h Circle.h Circle.cpp Rectangle.h Rectangle.cpp ShapeFactory.h ShapeFactory.cpp
+	gcc main.cpp Circle.cpp Rectangle.cpp ShapeFactory.cpp -Wall -Wextra -pedantic -std=c++14 -lstdc++ -g -o test	
